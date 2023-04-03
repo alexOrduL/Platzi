@@ -1,0 +1,35 @@
+use("platzi_store");
+
+// SENSOR FIRST LECTURE
+// db.iot.insertOne({
+//   sensor: "A001",
+//   date: "2022-04-02",
+//   readings: [1212],
+// });
+
+// POP REMOVES ELEMENTS IN ARRAY
+// db.iot.updateOne(
+//   {
+//     sensor: "A001",
+//     date: "2022-04-02",
+//   },
+//   {
+//     $pop: {
+//       reading: 1,
+//     },
+//   }
+// );
+
+// db.iot.updateOne(
+//   {
+//     sensor: "A001",
+//     date: "2022-04-02",
+//   },
+//   {
+//     $push: {
+//       readings: 2323,
+//     },
+//   }
+// );
+
+db.iot.find();
