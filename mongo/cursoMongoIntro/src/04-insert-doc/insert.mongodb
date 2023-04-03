@@ -1,0 +1,13 @@
+use("platzi_store");
+
+db.products.insertOne({
+  _id: 1,
+  name: "Product 1",
+  prince: 1000,
+});
+
+db.products.insertOne({
+  _id: 2,
+  name: "Product 2",
+  prince: 100,
+});

@@ -1,0 +1,10 @@
+use("platzi_store");
+
+db.products.updateOne(
+  { _id: 1 },
+  {
+    $inc: {
+      price: 100,
+    },
+  }
+);
